@@ -18,14 +18,6 @@ You can install the package via composer:
 composer require mad-web/laravel-robots
 ```
 
-_*For Laravel <= 5.4*_ - Now add the service provider in config/app.php file:
-```php
-'providers' => [
-    // ...
-    MadWeb\Robots\RobotsServiceProvider::class,
-];
-```
-
 ## Usage
 
 Setting a condition in your `AppServiceProvider` that determines whether the site should be indexed.
